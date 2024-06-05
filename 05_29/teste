@@ -1,0 +1,20 @@
+<html>
+     <head>
+        <title>Somar</title>
+       <script>
+          var a;
+          var b;
+
+          a =  window.prompt("Digite o km inicial que seu carro esta fazendo:");
+          a = Number(a)
+
+
+       </script>
+
+    </head>>
+     
+     <body>
+
+    </body>
+
+</html>

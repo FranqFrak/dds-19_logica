@@ -1,0 +1,51 @@
+<html>
+
+<head>
+<title>Calculador IMC</title>
+<meta http-equiv="Content-Type"  content="text/html;chaeset=UTF-8" >
+</html>
+
+<script>
+
+let  altura;
+let peso;
+
+altura = window.prompt("Informe sua Altura:");
+ altura = Number(altura);
+
+ peso = window.prompt("Informe seu peso:");
+  peso = Number (peso);
+
+  imc = peso/(altura*altura);
+   imc = imc * 100
+  imc = Math.round(imc); // A função rond do obejoto Math arredonda para numeros inteiros
+   imc = imc/100
+   
+
+    if(imc < 18.49){
+        console.log("Abaixo do normol")
+    }else if(imc <= 24.99){
+        console.log("Faixa saudável")
+    }else if(imc <=30){
+        console.log("Acima do peso")
+    }else if(imc <= 35){
+        console.log("Faixa de obesidade grau 1")
+    }else if(imc <= 40 ){
+        console.log("faixa de obesidade grau 2")
+    }else{
+        console.log("Faixa de obesidade grau 3")
+    }
+   console.log(imc);
+
+</script>
+
+
+<body>
+
+
+
+
+</body>
+
+
+</html>    
