@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+ <script>
+
+let nota1
+let nota2
+let nota3
+let nota4
+let media
+
+nota1 = window.prompt("Digite sua primeira nota:")
+ nota1 = Number(nota1)
+
+ nota2 = window.prompt("Digite sua segunda nota:")
+ nota2 = Number(nota2)
+
+ nota3 = window.prompt("Digite sua terceira nota:")
+ nota3 = Number(nota3)
+
+ nota4 = window.prompt("Digite sua quarta nota:")
+ nota4 = Number(nota4)
+
+media = (nota1+nota2+nota3+nota4)/4
+
+console.log("Sua média é:",media)
+
+if(media >= 7){
+    console.log("Aprovado")
+}
+else if(media >= 5 && media < 7) {
+    console.log("Recuperação")  
+}
+else if(media < 5)  {
+    console.log("Reprovado")
+
+}
+
+ 
+
+ </script>
+
+</head>
+<body>
+    
+</body>
+</html>

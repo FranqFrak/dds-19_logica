@@ -1,11 +1,12 @@
 <html>
-     <head>
+     
+<head>
         <title>Somar</title>
        <script>
-          var a;
-          var b;
+          let a;
+          let b;
 
-          a =  window.prompt("Digite o km inicial que seu carro esta fazendo:");
+          a =  window.prompt("Digite um número:");
           a = Number(a)
 
 
